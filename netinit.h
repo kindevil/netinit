@@ -3,8 +3,7 @@
 
 #include <arpa/inet.h>
 #include <netdev.h>
-#include <cJSON.h>
 
-int init_network(void);
+void net_config(char *address, char *netmask, char *gateway);
 
 #endif /* __OPTPARSE_H_ */
