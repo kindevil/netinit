@@ -3,6 +3,7 @@
 
 #include <arpa/inet.h>
 #include <netdev.h>
+#include <cJSON.h>
 
 int init_network(void);
 
